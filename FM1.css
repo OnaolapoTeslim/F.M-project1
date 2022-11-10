@@ -1,0 +1,145 @@
+body {
+      width: 100vw;
+      height: 1100px;
+      background-color:  hsl(0, 100%, 74%) ;
+    }
+
+    h1 {
+      color: white;
+    }
+    #top{
+    background-color:  hsl(0, 100%, 74%) ;
+    border: none;
+    }
+    .paragraph1 {
+        color: white;
+    }
+    #btn1 {
+        height: 80px;
+        background-color: hsl(248, 32%, 49%);
+        border-radius: 5px 5px 5px 5px;
+        border: none;
+        color: white;
+    }
+    #btn1:hover {
+        background-color:  hsl(249, 85%, 8%);;
+    }
+    #btn1:active {
+        transform: scale(1.1);
+    }
+    #innerwell2 {
+        width: 90vw;
+        border-radius: 20px 20px 20px 20px;
+        background-color: white;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+        margin-top: 40px;
+    }
+    #well2 {
+        background-color:  hsl(0, 100%, 74%) ;   
+        padding-left: auto;
+        padding-right: auto;
+    }
+   input {
+        width: 80vw; 
+        height: 60px;
+    }
+    #inputcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input:first-of-type {
+        margin-top: 40px;
+    }
+    #freetrial {
+        width: 80vw;
+        height: 60px;
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+    }
+    #freetrial:active {
+        transform: scale(1.1);
+    }
+    #freetrial:hover {
+        background-color: hsl(100,70%, 40%);
+    }
+    #terms {
+        margin-top: -10px;
+    }
+    a {
+        color: hsl(0, 100%, 74%);
+        font-weight: bold;
+    }
+    @media (min-width: 1000px) and (max-width: 1500px){
+       #overall {
+        width: 100vw;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       }
+       #innerwell2 {
+        width: 30vw;
+        border-radius: 5px 5px 5px 5px;
+        background-color: white;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+        position: absolute;
+        right: 10vw;
+        top: 30vh;
+    }
+    input {
+        width: 25vw; 
+        height: 45px;
+    }
+    #freetrial {
+        width: 25vw;
+        height: 45px;
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+    }
+    input:first-of-type {
+        margin-top: -25px;
+    }
+    header {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50vw;
+        height: 1000px;
+    }
+    header h1 {
+        font-size: 60px;
+        margin-top: 40vh;
+    }
+
+    #paragraphbox {
+        width: 30vw;
+        position: absolute;
+        top: 70vh;
+        left: 10vw;
+    }
+    #btn1 {
+        position: absolute;
+        top:20vh;
+        width: 30vw;
+        right: 10.75vw;
+    }
+}
+    
+    
